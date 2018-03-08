@@ -10,5 +10,6 @@ WORKDIR $PROJECT_ROOT
 
 RUN chmod +x /opt/temp/bin/* && \
     /opt/temp/bin/provide.sh && \
+    sleep 5 && \
     rm -Rf /opt/temp
     
