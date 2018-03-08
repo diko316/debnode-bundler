@@ -8,7 +8,7 @@ ADD . /opt/temp
 
 WORKDIR $PROJECT_ROOT
 
-RUN chmod +x /opt/temp/bin/provide.sh && \
+RUN chmod +x /opt/temp/bin/* && \
     /opt/temp/bin/provide.sh && \
     rm -Rf /opt/temp
     
